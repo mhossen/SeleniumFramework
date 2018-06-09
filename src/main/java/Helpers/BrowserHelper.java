@@ -2,7 +2,8 @@ package Helpers;
 
 import org.openqa.selenium.WebDriver;
 
-public class BrowserHerlper  {
+public class BrowserHerlper {
+
     public void RefreshCurrentPage(WebDriver driver) {
         driver.navigate().refresh();
     }
