@@ -1,13 +1,14 @@
 package Helpers;
 
+import Base.BaseHelper;
 import org.openqa.selenium.WebDriver;
 
-public class NavigationHelper {
-    private WebDriver _driver;
-    public NavigationHelper(WebDriver driver){
-        this._driver = driver;
+public class NavigationHelper extends BaseHelper {
+    public NavigationHelper(WebDriver driver) {
+        super(driver);
     }
-       public void NavigateToUrl(String url) {
-        _driver.navigate().to(url);
+
+    public void NavigateToUrl(String url) {
+        driver.navigate().to(url);
     }
 }

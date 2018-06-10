@@ -1,18 +1,15 @@
 package Pages;
 
-import Settings.ObjectRepo;
+import Base.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
-import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
+public class LoginPage extends BasePage {
     private WebDriver _driver;
 
     public LoginPage(WebDriver driver) {
-        this._driver = driver;
-        PageFactory.initElements(_driver, this);
+        super(driver);
     }
 
     @FindBy(id = "txtUsername")
@@ -25,8 +22,8 @@ public class LoginPage {
     private WebElement btnLogin;
 
     public void Login(String userName, String password) {
-        txtUserName.sendKeys(userName);
-        txtPassword.sendKeys(password);
-        btnLogin.click();
+        writeText(txtUserName, userName);
+        writeText(txtPassword, password);
+        click(btnLogin);
     }
 }
