@@ -1,0 +1,8 @@
+{
+  "WebSite": "http://opensource.demo.orangehrmlive.com/",
+  "Browser": "Chrome",
+  "UserName": "admin",
+  "Password": "admin",
+  "PageLoadoutTime": "30",
+  "ElementLoadoutTime": "30"
+}

@@ -6,18 +6,23 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 public class MouseHelper {
-    Actions action;
-    WebElement element;
+    private Actions _action;
+    private WebElement _element;
+    private WebDriver _driver;
 
-    public void MouseHover(WebDriver driver, By locator) {
-        action = new Actions(driver);
-        element = driver.findElement(locator);
-        action.moveToElement(element).build().perform();
+    public MouseHelper(WebDriver driver) {
+        this._driver = driver;
     }
 
-    public void MouseHoverClick(WebDriver driver, By locator) {
-        action = new Actions(driver);
-        element = driver.findElement(locator);
-        action.moveToElement(element).click().build().perform();
+    public void MouseHover(By locator) {
+        _action = new Actions(_driver);
+        _element = _driver.findElement(locator);
+        _action.moveToElement(_element).build().perform();
+    }
+
+    public void MouseHoverClick(By locator) {
+        _action = new Actions(_driver);
+        _element = _driver.findElement(locator);
+        _action.moveToElement(_element).click().build().perform();
     }
 }

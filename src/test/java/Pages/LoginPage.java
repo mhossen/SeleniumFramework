@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage extends ObjectRepo {
+public class LoginPage {
     private WebDriver _driver;
 
     public LoginPage(WebDriver driver) {

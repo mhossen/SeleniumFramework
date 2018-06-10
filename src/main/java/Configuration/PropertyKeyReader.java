@@ -16,6 +16,11 @@ public class PropertyKeyReader implements IConfig {
     }
 
     @Override
+    public String getWebSite() throws IOException {
+        return ConfigReader.getString(configFilePath, PropertyKeys.WebSite);
+    }
+
+    @Override
     public String getUsername() throws IOException {
         return ConfigReader.getString(configFilePath, PropertyKeys.UserName);
     }

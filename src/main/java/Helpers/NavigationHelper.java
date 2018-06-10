@@ -1,10 +1,13 @@
 package Helpers;
 
-import Settings.ObjectRepo;
 import org.openqa.selenium.WebDriver;
 
 public class NavigationHelper {
-    public void NavigateToUrl(WebDriver driver, String url) {
-        driver.navigate().to(url);
+    private WebDriver _driver;
+    public NavigationHelper(WebDriver driver){
+        this._driver = driver;
+    }
+       public void NavigateToUrl(String url) {
+        _driver.navigate().to(url);
     }
 }

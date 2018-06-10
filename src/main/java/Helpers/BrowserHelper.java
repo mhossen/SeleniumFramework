@@ -2,21 +2,27 @@ package Helpers;
 
 import org.openqa.selenium.WebDriver;
 
-public class BrowserHerlper {
+public class BrowserHelper {
 
-    public void RefreshCurrentPage(WebDriver driver) {
-        driver.navigate().refresh();
+    private WebDriver _driver;
+
+    public BrowserHelper(WebDriver driver) {
+        this._driver = driver;
     }
 
-    public void GoBack(WebDriver driver) {
-        driver.navigate().back();
+    public void RefreshCurrentPage() {
+        _driver.navigate().refresh();
     }
 
-    public void GoForward(WebDriver driver) {
-        driver.navigate().forward();
+    public void GoBack() {
+        _driver.navigate().back();
     }
 
-    public void BrowserMaximize(WebDriver driver) {
-        driver.manage().window().maximize();
+    public void GoForward() {
+        _driver.navigate().forward();
+    }
+
+    public void BrowserMaximize() {
+        _driver.manage().window().maximize();
     }
 }

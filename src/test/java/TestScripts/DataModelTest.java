@@ -17,7 +17,7 @@ public class DataModelTest extends BaseDriver {
         urls.add("https://www.google.com");
         urls.add("https://www.amazon.com");
         for (int i = 0; i < urls.size(); i++) {
-            repo.navigation.NavigateToUrl(driver, urls.get(i));
+           getClassRepo().get_navigation().NavigateToUrl(urls.get(i));
             MyDataModel dm = new MyDataModel() {
                 {
                     Title = driver.getTitle();
