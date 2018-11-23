@@ -64,6 +64,12 @@
             <artifactId>poi</artifactId>
             <version>3.17</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.wink/wink-client-apache-httpclient -->
+        <dependency>
+            <groupId>org.apache.wink</groupId>
+            <artifactId>wink-client-apache-httpclient</artifactId>
+            <version>1.4</version>
+        </dependency>
 
     </dependencies>
 </project>

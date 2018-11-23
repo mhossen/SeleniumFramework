@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f06a4f7-ebbc-487b-9063-309032af9aac" name="Default" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Helpers/ExcelHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Helpers/FileHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ListOfUrl.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestScripts/CheckUrlStatusTest.java" afterDir="false" />
+    <list default="true" id="9f06a4f7-ebbc-487b-9063-309032af9aac" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Helpers/HttpHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Helpers/BrowserHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Helpers/BrowserHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Helpers/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Helpers/JsonReader.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,8 +26,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1980">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="367">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
             </state>
           </provider>
         </entry>
@@ -41,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Helpers/ExcelHelper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="445">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Helpers/FileHelper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#294#295#0" expanded="true" />
@@ -67,16 +62,28 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/TestScripts/DataModelTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="9" />
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckUrlStatusTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CheckUrlStatusTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestScripts/CheckUrlStatusTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="67">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpHelper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Helpers/HttpHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Settings/ClassRepo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -179,11 +186,12 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/Helpers/BrowserHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/Helpers/JsonReader.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Helpers/ExcelHelper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ListOfUrl.txt" />
         <option value="$PROJECT_DIR$/src/main/java/Helpers/FileHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestScripts/CheckUrlStatusTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Helpers/HttpHelper.java" />
       </list>
     </option>
   </component>
@@ -240,6 +248,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Helpers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SeleniumFramework" type="b2602c69:ProjectViewProjectNode" />
@@ -533,7 +549,21 @@
       <option name="project" value="LOCAL" />
       <updated>1528003858333</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added url title checks">
+      <created>1542991046361</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542991046361</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added url title checks">
+      <created>1542991473185</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542991473185</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -581,7 +611,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3296875" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32964602" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.44699454" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.2284153" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -607,7 +637,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Added url title checks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added url title checks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -624,13 +655,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.2/testng-6.14.2-sources.jar!/org/testng/internal/invokers/InvokedMethodListenerInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.2/testng-6.14.2-sources.jar!/org/testng/internal/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -889,13 +913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/test-classes/TestScripts/LoginTest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -913,7 +930,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Helpers/FileHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#294#295#0" expanded="true" />
@@ -925,7 +942,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/TestScripts/DataModelTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="9" />
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -939,7 +956,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Settings/ClassRepo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -968,20 +985,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Helpers/ExcelHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestScripts/CheckUrlStatusTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="67">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestScripts/CheckUrlStatusTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="367">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Helpers/ExcelHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Helpers/HttpHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
