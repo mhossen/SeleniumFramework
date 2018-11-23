@@ -9,15 +9,15 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class JsonReader {
-    private String filePaht;
+    private String filePath;
 
     public JsonReader(String path) {
-        this.filePaht = path;
+        this.filePath = path;
     }
 
     public String getValue(String name) throws IOException, ParseException {
         JSONParser parser = new JSONParser();
-        Object obj = parser.parse(new FileReader(System.getProperty("user.dir") + filePaht));
+        Object obj = parser.parse(new FileReader(System.getProperty("user.dir") + filePath));
         JSONObject jObject = (JSONObject) obj;
         return (String) jObject.get(name);
     }
