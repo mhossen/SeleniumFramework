@@ -10,20 +10,19 @@ import java.io.IOException;
 
 public class HttpHelper {
 
-    public String GetStatusCode(String url) throws IOException {
-        CloseableHttpClient httpclient = HttpClients.createDefault();
-        HttpGet httpGet = new HttpGet(url);
-        CloseableHttpResponse response1 = httpclient.execute(httpGet);
-        try {
-            System.out.println(response1.getStatusLine());
-            HttpEntity entity1 = response1.getEntity();
-            // do something useful with the response body
-            // and ensure it is fully consumed
-          //   EntityUtils.consume(entity1);
-          return   entity1.toString();
-        } finally
-        {
-            response1.close();
-        }
+  public String GetStatusCode(String url) throws IOException {
+    CloseableHttpClient httpclient = HttpClients.createDefault();
+    HttpGet httpGet = new HttpGet(url);
+    CloseableHttpResponse response1 = httpclient.execute(httpGet);
+    try {
+      System.out.println(response1.getStatusLine());
+      HttpEntity entity1 = response1.getEntity();
+      // do something useful with the response body
+      // and ensure it is fully consumed
+      //   EntityUtils.consume(entity1);
+      return entity1.toString();
+    } finally {
+      response1.close();
     }
+  }
 }

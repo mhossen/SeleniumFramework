@@ -1,5 +1,6 @@
 package Base;
 
+import Context.DriverContext;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,13 +8,13 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 public class BasePage extends GenericPage {
-    public BasePage(WebDriver driver) {
-        super(driver);
+    public BasePage(DriverContext driverContext) {
+        super(driverContext);
     }
 
     public <T> void click(T elementAttr) {
         if (elementAttr.getClass().getName().contains("By")) {
-            driver.findElement((By) elementAttr).click();
+            driverContext.getDriver().findElement((By) elementAttr).click();
         } else {
             ((WebElement) elementAttr).click();
         }
