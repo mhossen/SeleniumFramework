@@ -1,6 +1,6 @@
-package Helpers;
+package helpers;
 
-import Base.BaseHelper;
+import base.BaseHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

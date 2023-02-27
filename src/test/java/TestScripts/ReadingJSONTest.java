@@ -1,7 +1,7 @@
 package TestScripts;
 
-import Base.BaseDriver;
-import Helpers.JsonReader;
+import base.BaseDriver;
+import helpers.JsonReader;
 import Settings.PropertyKeys;
 import org.json.simple.parser.ParseException;
 import org.testng.annotations.Test;

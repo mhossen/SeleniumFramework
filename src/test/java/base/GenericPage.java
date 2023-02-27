@@ -1,8 +1,6 @@
-package Base;
+package base;
 
 import Context.DriverContext;
-import Settings.ObjectRepo;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 public class GenericPage {

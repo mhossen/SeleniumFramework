@@ -1,6 +1,6 @@
 package TestScripts;
 
-import Base.BaseDriver;
+import base.BaseDriver;
 import Pages.HomePage;
 import Pages.LoginPage;
 import org.testng.annotations.Test;

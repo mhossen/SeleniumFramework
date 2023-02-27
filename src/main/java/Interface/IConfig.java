@@ -3,10 +3,10 @@ package Interface;
 import java.io.IOException;
 
 public interface IConfig {
-    public String getBrowser() throws IOException;
-    public String getWebSite() throws IOException;
-    public String getUsername() throws IOException;
-    public String getPassword() throws IOException;
-    public int getPageTimeout() throws IOException;
-    public int getElementTimeout() throws IOException;
+    String getBrowser() throws IOException;
+    String getWebSite() throws IOException;
+    String getUsername() throws IOException;
+    String getPassword() throws IOException;
+    int getPageTimeout() throws IOException;
+    int getElementTimeout() throws IOException;
 }

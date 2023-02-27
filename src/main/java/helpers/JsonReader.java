@@ -1,4 +1,4 @@
-package Helpers;
+package helpers;
 
 
 import org.json.simple.JSONObject;
@@ -9,7 +9,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class JsonReader {
-    private String filePath;
+    private final String filePath;
 
     public JsonReader(String path) {
         this.filePath = path;

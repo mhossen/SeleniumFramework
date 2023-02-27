@@ -1,14 +1,14 @@
 package Settings;
 
-import Configuration.PropertyKeyReader;
-import Helpers.BrowserHelper;
-import Helpers.MouseHelper;
-import Helpers.NavigationHelper;
+import configuration.PropertyKeyReader;
+import helpers.BrowserHelper;
+import helpers.MouseHelper;
+import helpers.NavigationHelper;
 import Interface.IConfig;
 import org.openqa.selenium.WebDriver;
 
 public class ClassRepo {
-    private WebDriver _driver;
+    private final WebDriver _driver;
     private BrowserHelper _browser;
     private MouseHelper _mouse;
     private NavigationHelper _navigation;

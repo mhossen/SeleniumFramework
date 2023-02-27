@@ -5,20 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f06a4f7-ebbc-487b-9063-309032af9aac" name="Default" comment="Added url title checks">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Context/DriverContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Helpers/HttpHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Helpers/HttpHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BaseDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Base/GenericPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Base/GenericPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Base/BaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BaseHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Configuration/PropertyKeyReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuration/PropertyKeyReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Helpers/BrowserHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/BrowserHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Helpers/ButtonHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/ButtonHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Helpers/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Helpers/ExcelHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/ExcelHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Helpers/FileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/FileHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Helpers/HttpHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/HttpHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Helpers/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/JsonReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Helpers/MouseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/MouseHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Helpers/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/NavigationHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interface/IConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interface/IConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Settings/ClassRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Settings/ClassRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Settings/ObjectRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Settings/ObjectRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BaseDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Base/GenericPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/GenericPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Context/DriverContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Context/DriverContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestScripts/CheckUrlStatusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestScripts/CheckUrlStatusTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestScripts/DataModelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestScripts/DataModelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestScripts/HomePageMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestScripts/HomePageMenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestScripts/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestScripts/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestScripts/ReadingJSONTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestScripts/ReadingJSONTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestScripts/TestPageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestScripts/TestPageRepo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DsmViewSettings">
+    <option name="flattenPackages" value="true" />
   </component>
   <component name="FileColors">
     <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
@@ -214,21 +235,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Program Files/Git/bin/git.exe" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Mohammed Hossen\IdeaProjects\SeleniumFramework\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CheckUrlStatusTest (1)">
+  <component name="RunManager" selected="TestNG.LoginTest.TestLogin">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -238,24 +264,6 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckUrlStatusTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="org.Test.SeleniumFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestScripts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestScripts" />
-      <option name="MAIN_CLASS_NAME" value="TestScripts.CheckUrlStatusTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -297,7 +305,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPageRepo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DataModelTest.Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
@@ -306,7 +314,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestScripts" />
-      <option name="MAIN_CLASS_NAME" value="TestScripts.TestPageRepo" />
+      <option name="MAIN_CLASS_NAME" value="TestScripts.DataModelTest" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestScripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestScripts" />
+      <option name="MAIN_CLASS_NAME" value="TestScripts.LoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -315,8 +342,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestScripts" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="org.Test.SeleniumFramework" />
+    <configuration name="LoginTest.TestLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFramework" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TestScripts.*" />
@@ -324,7 +351,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestScripts" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="MAIN_CLASS_NAME" value="TestScripts.LoginTest" />
+      <option name="METHOD_NAME" value="TestLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -342,19 +371,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.TestPageRepo" />
+      <item itemvalue="TestNG.DataModelTest.Test" />
+      <item itemvalue="TestNG.LoginTest" />
+      <item itemvalue="TestNG.LoginTest.TestLogin" />
       <item itemvalue="TestNG.CheckUrlStatusTest.StatusTest" />
       <item itemvalue="TestNG.CheckUrlStatusTest" />
-      <item itemvalue="TestNG.TestScripts" />
-      <item itemvalue="TestNG.CheckUrlStatusTest (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CheckUrlStatusTest (1)" />
-        <item itemvalue="TestNG.TestScripts" />
-        <item itemvalue="TestNG.CheckUrlStatusTest" />
+        <item itemvalue="TestNG.LoginTest.TestLogin" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.DataModelTest.Test" />
         <item itemvalue="TestNG.CheckUrlStatusTest.StatusTest" />
-        <item itemvalue="TestNG.TestPageRepo" />
+        <item itemvalue="TestNG.CheckUrlStatusTest" />
       </list>
     </recent_temporary>
   </component>
@@ -369,6 +398,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527914170184</updated>
+      <workItem from="1677381714595" duration="1937000" />
+      <workItem from="1677444238145" duration="3768000" />
+      <workItem from="1677509183631" duration="294000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1528003858333</created>
@@ -460,6 +492,9 @@
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -475,6 +510,17 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added url title checks" />
     <option name="LAST_COMMIT_MESSAGE" value="Added url title checks" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/base/BaseDriver.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">

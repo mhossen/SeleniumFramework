@@ -1,11 +1,12 @@
 package TestScripts;
 
-import Base.BaseDriver;
+import base.BaseDriver;
 import Model.MyDataModel;
 import org.testng.annotations.Test;
 
-import java.util.*;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Vector;
 
 public class DataModelTest extends BaseDriver {
     @Test
@@ -20,8 +21,8 @@ public class DataModelTest extends BaseDriver {
            getClassRepo().get_navigation().NavigateToUrl(urls.get(i));
             MyDataModel dm = new MyDataModel() {
                 {
-                    Title = driver.getTitle();
-                    Url = driver.getCurrentUrl();
+                    Title = driverContext.getDriver().getTitle();
+                    Url = driverContext.getDriver().getCurrentUrl();
                 }
 
             };

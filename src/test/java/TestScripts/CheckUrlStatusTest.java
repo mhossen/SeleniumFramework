@@ -1,11 +1,8 @@
 package TestScripts;
 
-import Base.BaseDriver;
-import Helpers.FileHelper;
-import Helpers.HttpHelper;
-import Settings.ClassRepo;
-import Settings.ObjectRepo;
-import org.testng.Assert;
+import base.BaseDriver;
+import helpers.FileHelper;
+import helpers.HttpHelper;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -26,9 +23,6 @@ public class CheckUrlStatusTest extends BaseDriver {
         for (String url : urls) {
             getClassRepo().get_navigation().NavigateToUrl(url);
             System.out.println(httpHelper.GetStatusCode(url));
-//            if (!driver.getTitle().toLowerCase().contains("server information")) {
-//                System.out.println(driver.getTitle());
-//            }
         }
     }
 }

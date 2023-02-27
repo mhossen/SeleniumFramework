@@ -1,8 +1,7 @@
-package Base;
+package base;
 
 import Context.DriverContext;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
@@ -22,7 +21,7 @@ public class BasePage extends GenericPage {
 
     public <T> void writeText(T elementAttr, String text) {
         if (elementAttr.getClass().getName().contains("By")) {
-            driver.findElement((By) elementAttr).sendKeys(text);
+            driverContext.getDriver().findElement((By) elementAttr).sendKeys(text);
         } else {
             ((WebElement) elementAttr).sendKeys(text);
         }
@@ -30,14 +29,14 @@ public class BasePage extends GenericPage {
 
     public <T> String readText(T elementAttr) {
         if (elementAttr.getClass().getName().contains("By")) {
-            return driver.findElement((By) elementAttr).getText();
+            return driverContext.getDriver().findElement((By) elementAttr).getText();
         } else {
             return ((WebElement) elementAttr).getText();
         }
     }
 
     public void handlePopup (By by) throws InterruptedException {
-        List<WebElement> popup = driver.findElements(by);
+        List<WebElement> popup = driverContext.getDriver().findElements(by);
         if(!popup.isEmpty()){
             popup.get(0).click();
             Thread.sleep(200);

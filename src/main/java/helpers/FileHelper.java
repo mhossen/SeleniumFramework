@@ -1,4 +1,4 @@
-package Helpers;
+package helpers;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -8,7 +8,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class FileHelper {
-    private String _filePath;
+    private final String _filePath;
 
     public FileHelper(String filePath) {
         _filePath = filePath;

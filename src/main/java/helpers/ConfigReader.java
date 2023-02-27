@@ -1,11 +1,11 @@
-package Helpers;
+package helpers;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigReader {
-    private static Properties propFile = new Properties();
+    private static final Properties propFile = new Properties();
     private static FileInputStream fileInputStreamR = null;
 
     public static String getString(String propFilePath, String propKey) throws IOException {

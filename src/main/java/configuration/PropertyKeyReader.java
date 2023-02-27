@@ -1,14 +1,13 @@
-package Configuration;
+package configuration;
 
-import Helpers.ConfigReader;
+import helpers.ConfigReader;
 import Interface.IConfig;
 import Settings.PropertyKeys;
 
-import javax.annotation.PropertyKey;
 import java.io.IOException;
 
 public class PropertyKeyReader implements IConfig {
-    private static String configFilePath = "\\src\\main\\resources\\config.properties";
+    private static final String configFilePath = "\\src\\main\\resources\\config.properties";
 
     @Override
     public String getBrowser() throws IOException {
